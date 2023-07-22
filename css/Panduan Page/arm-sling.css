@@ -1,20 +1,11 @@
 body {
-  background-color: #000015;
+  background-color: #000029;
   margin: 0;
   font-family: 'Roboto', sans-serif;
-  margin: 0;
-  padding: 0;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
 }
 
 a {
   cursor: pointer;
-}
-
-#fade-in-text {
-  opacity: 0;
 }
 
 .header-main {
@@ -73,13 +64,6 @@ a {
   margin-left: 500px;
 }
 
-.section-main p.paragraph {
-  text-align: justify;
-  font-size: 2em;
-}
-
-/*batas*/
-
 .section-main button.btn-primary {
   height: 50px;
   width: 150px;
@@ -96,8 +80,8 @@ a {
 }
 
 .custom-primary-top:hover {
-  background-color: #000029;
-  border-color: #000029;
+  background-color: #8b0000;
+  border-color: #8b0000;
   color: white;
 }
 
@@ -110,28 +94,11 @@ a {
   text-align: center;
   margin-top: 50px;
 }
-
-.section-main p {
+.section-main p.instruct-details {
   text-align: justify;
-  text-align-last: center;
-  font-size: 1.3em;
-  margin-top: 50px;
-  margin-bottom: 75px;
+  font-size: 1.4em;
 }
-
-.section-main h1.bot {
-  color: #c31432;
-  text-align: center;
-  margin-top: 50px;
-}
-
-.container {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 1000%;
-  background-color: #f5f5f5;
-  padding: 10px;
-  text-align: center;
-  transform: translate(-50%, -50%);
+.section-main p.details {
+  text-align: justify;
+  font-size: 1.4em;
 }

@@ -237,7 +237,7 @@ a {
 .section-2 button.btn-primary {
   height: 50px;
   width: 250px;
-  border-radius: 25px; 
+  border-radius: 25px;
 }
 
 .card-image {
@@ -280,7 +280,7 @@ a {
   border-radius: 50%;
 }
 
-.Banner-card{
+.Banner-card {
   position: relative;
 }
 
@@ -288,7 +288,10 @@ a {
   position: absolute; /* Mengatur posisi elemen dengan posisi absolut */
   top: 50%; /* Posisi vertikal di tengah */
   left: 50%; /* Posisi horizontal di tengah */
-  transform: translate(-50%, -50%); /* Pusatkan elemen dengan menggesernya sejauh setengah lebar dan tinggi elemen */
+  transform: translate(
+    -50%,
+    -50%
+  ); /* Pusatkan elemen dengan menggesernya sejauh setengah lebar dan tinggi elemen */
   text-align: center; /* Pusatkan teks */
 }
 
@@ -399,8 +402,6 @@ a {
   border-radius: 50px;
 }
 
-
-
 .card {
   border: 2px solid #ffffff;
   color: rgba(255, 255, 255, 0.8);
@@ -412,7 +413,6 @@ a {
 }
 
 .card1 a {
-  
   gap: 10px;
   width: 200px;
   height: 200px;
@@ -422,14 +422,11 @@ a {
   top: 320%;
   left: 45%;
 }
-.card1{
+.card1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
-
-  
-
 }
 
 .card-body1 {
